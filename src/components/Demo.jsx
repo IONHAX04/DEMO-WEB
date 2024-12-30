@@ -166,7 +166,8 @@ export default function Demo() {
           <div className="w-full md:w-2">
             <Divider layout="vertical" className="hidden md:flex"></Divider>
           </div>
-          <div className="w-full flex align-items-center justify-content-center py-5">
+          <div className="w-full flex flex-column align-items-center justify-content-center py-5">
+          <h3>Testing Commit</h3>
             <DataTable value={users} showGridlines scrollable>
               <Column
                 field="refUserCustId"
